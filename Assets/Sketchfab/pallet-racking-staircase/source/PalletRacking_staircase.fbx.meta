@@ -3,7 +3,37 @@ guid: 9345a63dce84ec94a89d99252e3a7344
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PalletRacking_1
+    second: {fileID: 2100000, guid: ace6e10585b302141a24c51482c29723, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PalletRacking_2
+    second: {fileID: 2100000, guid: 9996bd2bf5b04af4b8923fcc4d36268e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PalletRacking_3
+    second: {fileID: 2100000, guid: 7ecb79a2bb73c6445880c86c4f4ab3eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PalletRacking_4
+    second: {fileID: 2100000, guid: 344097b17b88f51479cf25827ec37b81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PalletRacking_staircase_1
+    second: {fileID: 2100000, guid: 2334b716cdb3654408333a94ceda4af9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PalletRacking_staircase_2
+    second: {fileID: 2100000, guid: 49e6aece982b1d14ba1df8f12800e49e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -36,7 +66,7 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 1
-    meshCompression: 0
+    meshCompression: 1
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
@@ -48,7 +78,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
